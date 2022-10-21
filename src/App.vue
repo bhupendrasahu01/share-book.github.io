@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header />
     <div class="container">
       <router-view/>
     </div>
@@ -20,14 +20,16 @@ export default {
 
 body {
   
-  background-image: linear-gradient(to right, #0093E9 , #80D0C7);
+  
+  background-image: linear-gradient(to right, #e3f8f5 , #f3f7f6);
 
 }
 .container {
   max-width: 900px;
 }
 .card {
-  background: #1a1d24;
+  /* background-image: linear-gradient(to right, #1675ac , #218377); */
+  background-image: linear-gradient(to right, #1675ac , #36d6c3);
 }
 .card-body {
   color: #f9ffee;
